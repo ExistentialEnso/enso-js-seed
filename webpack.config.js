@@ -2,6 +2,7 @@ var webpack = require('webpack'),
     path = require('path');
  
 module.exports = {
+    mode: 'development',
     entry: {
         index: './src/index.js'
     },
@@ -18,7 +19,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: ['babel-preset-es2015', 'babel-preset-stage-3']
+                        presets: ['babel-preset-env']
                     }
                 }
             }

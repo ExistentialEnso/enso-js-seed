@@ -1,6 +1,12 @@
-This is a basic JavaScript project seed.
+This is Thorne's basic JavaScript project seed for creating new projects quickly.
 
-Features
+Libraries
 ===========
-* Compilation of newer JS versions via babel.
-* Basic webpack configuration. Just type ```webpack``` to build.
+* Babel
+* Webpack
+
+Templates
+===========
+Included are templates designed to help jumpstart a given type of JS development:
+
+* server (```yarn install express``)

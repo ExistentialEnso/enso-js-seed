@@ -1,6 +1,6 @@
 class Test {
     hello() {
-        echo("Hello world!");
+        console.log("Hello world!");
     }
 }
 

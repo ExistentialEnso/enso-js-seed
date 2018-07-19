@@ -4,6 +4,7 @@
   "description": "A basic seed for JS projects.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thorne N. Melcher",
@@ -11,8 +12,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "path": "^0.12.7",
     "webpack": "^3.10.0"
   }
