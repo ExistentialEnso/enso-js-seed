@@ -9,4 +9,4 @@ Templates
 ===========
 Included are templates designed to help jumpstart a given type of JS development:
 
-* server (```yarn install express``)
+* server (```yarn install express```)
